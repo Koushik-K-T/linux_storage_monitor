@@ -1,0 +1,10 @@
+LINUX STORAGE MONITORING REPORT
+Generated: 2026-10-26T09:44:43+05:30
+Warning threshold: 80%
+Critical threshold: 90%
+
+DISK SPACE
+Filesystem | Type | Size | Used | Available | Usage | Mount
+
+INODE USAGE
+Filesystem | Total | Used | Free | Usage | Mount

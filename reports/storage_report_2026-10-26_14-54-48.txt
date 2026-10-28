@@ -1,0 +1,275 @@
+LINUX STORAGE MONITOR
+====================
+
+REPORT DETAILS
+--------------
+Generated          : 2026-10-26T14:54:48+00:00
+Warning threshold  : 80%
+Critical threshold : 90%
+Filesystems found  : 18
+Inode entries      : 16
+
+DISK SPACE
+----------
+
+Filesystem : none
+Mount      : /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+Type       : overlay
+Size       : 3994948
+Used       : 0
+Available  : 3994948
+Usage      : 0%
+
+Filesystem : none
+Mount      : /mnt/wsl
+Type       : tmpfs
+Size       : 3994948
+Used       : 4
+Available  : 3994944
+Usage      : 1%
+
+Filesystem : drivers
+Mount      : /usr/lib/wsl/drivers
+Type       : 9p
+Size       : 471999812
+Used       : 409895552
+Available  : 62104260
+Usage      : 87%
+
+Filesystem : /dev/sdd
+Mount      : /
+Type       : ext4
+Size       : 1055762868
+Used       : 2013060
+Available  : 1000046336
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg
+Type       : tmpfs
+Size       : 3994948
+Used       : 40
+Available  : 3994908
+Usage      : 1%
+
+Filesystem : none
+Mount      : /usr/lib/wsl/lib
+Type       : overlay
+Size       : 3994948
+Used       : 0
+Available  : 3994948
+Usage      : 0%
+
+Filesystem : rootfs
+Mount      : /init
+Type       : rootfs
+Size       : 3989192
+Used       : 2772
+Available  : 3986420
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run
+Type       : tmpfs
+Size       : 3994948
+Used       : 540
+Available  : 3994408
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/lock
+Type       : tmpfs
+Size       : 3994948
+Used       : 0
+Available  : 3994948
+Usage      : 0%
+
+Filesystem : none
+Mount      : /run/shm
+Type       : tmpfs
+Size       : 3994948
+Used       : 0
+Available  : 3994948
+Usage      : 0%
+
+Filesystem : none
+Mount      : /mnt/wslg/versions.txt
+Type       : overlay
+Size       : 3994948
+Used       : 80
+Available  : 3994868
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/doc
+Type       : overlay
+Size       : 3994948
+Used       : 80
+Available  : 3994868
+Usage      : 1%
+
+Filesystem : C:\
+Mount      : /mnt/c
+Type       : 9p
+Size       : 471999812
+Used       : 409895552
+Available  : 62104260
+Usage      : 87%
+
+Filesystem : tmpfs
+Mount      : /tmp
+Type       : tmpfs
+Size       : 3994952
+Used       : 2872
+Available  : 3992080
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/getty@tty1.service
+Type       : tmpfs
+Size       : 1024
+Used       : 0
+Available  : 1024
+Usage      : 0%
+
+Filesystem : tmpfs
+Mount      : /run/user/1000
+Type       : tmpfs
+Size       : 798988
+Used       : 12
+Available  : 798976
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-journald.service
+Type       : tmpfs
+Size       : 1024
+Used       : 0
+Available  : 1024
+Usage      : 0%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-resolved.service
+Type       : tmpfs
+Size       : 1024
+Used       : 0
+Available  : 1024
+Usage      : 0%
+
+INODE USAGE
+-----------
+
+Filesystem : none
+Mount      : /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+Total      : 998737
+Used       : 5
+Free       : 998732
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wsl
+Total      : 998737
+Used       : 2
+Free       : 998735
+Usage      : 1%
+
+Filesystem : /dev/sdd
+Mount      : /
+Total      : 67108864
+Used       : 57671
+Free       : 67051193
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg
+Total      : 998737
+Used       : 23
+Free       : 998714
+Usage      : 1%
+
+Filesystem : none
+Mount      : /usr/lib/wsl/lib
+Total      : 998737
+Used       : 7
+Free       : 998730
+Usage      : 1%
+
+Filesystem : rootfs
+Mount      : /init
+Total      : 997298
+Used       : 12
+Free       : 997286
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run
+Total      : 998737
+Used       : 571
+Free       : 998166
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/lock
+Total      : 998737
+Used       : 2
+Free       : 998735
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/shm
+Total      : 998737
+Used       : 1
+Free       : 998736
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/versions.txt
+Total      : 998737
+Used       : 52
+Free       : 998685
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/doc
+Total      : 998737
+Used       : 52
+Free       : 998685
+Usage      : 1%
+
+Filesystem : tmpfs
+Mount      : /tmp
+Total      : 1048576
+Used       : 13
+Free       : 1048563
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/getty@tty1.service
+Total      : 1024
+Used       : 1
+Free       : 1023
+Usage      : 1%
+
+Filesystem : tmpfs
+Mount      : /run/user/1000
+Total      : 199747
+Used       : 49
+Free       : 199698
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-journald.service
+Total      : 1024
+Used       : 1
+Free       : 1023
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-resolved.service
+Total      : 1024
+Used       : 1
+Free       : 1023
+Usage      : 1%
+
+END OF REPORT
+=============

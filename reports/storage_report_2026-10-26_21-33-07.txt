@@ -1,0 +1,23 @@
+LINUX STORAGE MONITOR
+====================
+
+REPORT DETAILS
+--------------
+Generated          : 2026-10-26T21:33:07+05:30
+Warning threshold  : 80%
+Critical threshold : 90%
+Filesystems found  : 0
+Inode entries      : 0
+
+DISK SPACE
+----------
+
+No filesystem data was returned.
+
+INODE USAGE
+-----------
+
+No inode data was returned.
+
+END OF REPORT
+=============

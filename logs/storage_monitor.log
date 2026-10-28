@@ -1,0 +1,43 @@
+[2026-10-26 03:24:07 UTC] COMMAND Mounted filesystems (findmnt -D) | exit=0
+[2026-10-26 03:24:52 UTC] REPORT generated | storage_report_2026-10-26_03-24-52.txt
+[2026-10-26 09:44:43 India Standard Time] REPORT generated | storage_report_2026-10-26_09-44-43.txt
+[2026-10-26 09:48:18 India Standard Time] SIMULATION CRITICAL | test filesystem | usage=95% | thresholds warning=80%, critical=90%
+[2026-10-26 12:53:54 India Standard Time] COMMAND Disk space (df -hT) | exit=127
+[2026-10-26 12:54:04 India Standard Time] COMMAND Inode usage (df -i) | exit=127
+[2026-10-26 12:54:10 India Standard Time] COMMAND Block devices (lsblk) | exit=127
+[2026-10-26 12:54:15 India Standard Time] COMMAND Mounted filesystems (findmnt -D) | exit=127
+[2026-10-26 12:54:22 India Standard Time] COMMAND Root filesystem (df -h /) | exit=127
+[2026-10-26 12:54:37 India Standard Time] REPORT generated | storage_report_2026-10-26_12-54-37.txt
+[2026-10-26 12:54:45 India Standard Time] CONFIG updated | warning=80% critical=90%
+[2026-10-26 12:54:57 India Standard Time] SIMULATION CRITICAL | test filesystem | usage=95% | thresholds warning=80%, critical=90%
+[2026-10-26 18:53:52 India Standard Time] REPORT generated | storage_report_2026-10-26_18-53-52.txt
+[2026-10-26 14:24:08 UTC] COMMAND Inode usage (df -i) | exit=0
+[2026-10-26 14:46:53 UTC] CACHE clear failed | exit=1
+[2026-10-26 14:53:44 UTC] CACHE clear failed | exit=1
+[2026-10-26 14:53:49 UTC] CACHE clear failed | exit=1
+[2026-10-26 14:53:50 UTC] CACHE clear failed | exit=1
+[2026-10-26 20:24:42 India Standard Time] REPORT generated | storage_report_2026-10-26_20-24-42.txt
+[2026-10-26 14:54:48 UTC] REPORT generated | storage_report_2026-10-26_14-54-48.txt
+[2026-10-26 15:01:04 UTC] REPORT generated | storage_report_2026-10-26_15-01-04.txt
+[2026-10-26 21:33:07 India Standard Time] REPORT generated | storage_report_2026-10-26_21-33-07.txt
+[2026-10-26 21:33:07 India Standard Time] COMMAND Disk space (df -P -T, values in MB) | exit=127
+[2026-10-26 16:03:08 UTC] COMMAND Disk space (df -P -T, values in MB) | exit=0
+[2026-10-26 16:03:16 UTC] COMMAND Disk space (df -P -T, values in MB) | exit=0
+[2026-10-26 16:03:16 UTC] REPORT generated | storage_report_2026-10-26_16-03-16.txt
+[2026-10-26 16:03:52 UTC] COMMAND Disk space (df -P -T, values in MB) | exit=0
+[2026-10-26 16:03:52 UTC] REPORT generated | storage_report_2026-10-26_16-03-52.txt
+[2026-10-27 04:59:57 UTC] REPORT generated | storage_report_2026-10-27_04-59-57.txt
+[2026-10-27 05:01:38 UTC] CACHE clear failed | exit=1
+[2026-10-27 05:01:39 UTC] CACHE clear failed | exit=1
+[2026-10-27 05:49:40 UTC] COMMAND Inode usage (df -i) | exit=0
+[2026-10-27 05:54:18 UTC] CACHE clear failed | exit=1
+[2026-10-27 05:56:26 UTC] REPORT generated | storage_report_2026-10-27_05-56-26.txt
+[2026-10-27 05:56:31 UTC] REPORT generated | storage_report_2026-10-27_05-56-31.txt
+[2026-10-27 05:56:47 UTC] REPORT generated | storage_report_2026-10-27_05-56-47.txt
+[2026-10-28 03:46:09 UTC] COMMAND Mounted filesystems (findmnt -D) | exit=0
+[2026-10-28 03:46:28 UTC] CACHE clear failed | exit=1
+[2026-10-28 03:46:42 UTC] COMMAND Block devices (lsblk, adaptive MB/GB sizes) | exit=0
+[2026-10-28 03:46:47 UTC] COMMAND Inode usage (df -i) | exit=0
+[2026-10-28 03:59:56 UTC] CONFIG updated | warning=83% critical=90%
+[2026-10-28 04:01:40 UTC] COMMAND Mounted filesystems (findmnt -D) | exit=0
+[2026-10-28 04:02:53 UTC] COMMAND Mounted filesystems (findmnt -D) | exit=0

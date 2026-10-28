@@ -1,0 +1,44 @@
+LINUX STORAGE MONITORING REPORT
+Generated: 2026-10-26T03:24:52+00:00
+Warning threshold: 80%
+Critical threshold: 90%
+
+DISK SPACE
+Filesystem | Type | Size | Used | Available | Usage | Mount
+none | overlay | 3994952 | 0 | 3994952 | 0% | /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+none | tmpfs | 3994952 | 4 | 3994948 | 1% | /mnt/wsl
+drivers | 9p | 471999812 | 411062212 | 60937600 | 88% | /usr/lib/wsl/drivers
+/dev/sdd | ext4 | 1055762868 | 1843188 | 1000216208 | 1% | /
+none | tmpfs | 3994952 | 36 | 3994916 | 1% | /mnt/wslg
+none | overlay | 3994952 | 0 | 3994952 | 0% | /usr/lib/wsl/lib
+rootfs | rootfs | 3989192 | 2772 | 3986420 | 1% | /init
+none | tmpfs | 3994952 | 524 | 3994428 | 1% | /run
+none | tmpfs | 3994952 | 0 | 3994952 | 0% | /run/lock
+none | tmpfs | 3994952 | 0 | 3994952 | 0% | /run/shm
+none | overlay | 3994952 | 80 | 3994872 | 1% | /mnt/wslg/versions.txt
+none | overlay | 3994952 | 80 | 3994872 | 1% | /mnt/wslg/doc
+C:\ | 9p | 471999812 | 411062212 | 60937600 | 88% | /mnt/c
+none | tmpfs | 1024 | 0 | 1024 | 0% | /run/credentials/systemd-journald.service
+tmpfs | tmpfs | 3994952 | 0 | 3994952 | 0% | /tmp
+none | tmpfs | 1024 | 0 | 1024 | 0% | /run/credentials/systemd-resolved.service
+none | tmpfs | 1024 | 0 | 1024 | 0% | /run/credentials/getty@tty1.service
+tmpfs | tmpfs | 798988 | 12 | 798976 | 1% | /run/user/1000
+
+INODE USAGE
+Filesystem | Total | Used | Free | Usage | Mount
+none | 998738 | 5 | 998733 | 1% | /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+none | 998738 | 2 | 998736 | 1% | /mnt/wsl
+/dev/sdd | 67108864 | 47974 | 67060890 | 1% | /
+none | 998738 | 23 | 998715 | 1% | /mnt/wslg
+none | 998738 | 7 | 998731 | 1% | /usr/lib/wsl/lib
+rootfs | 997298 | 12 | 997286 | 1% | /init
+none | 998738 | 557 | 998181 | 1% | /run
+none | 998738 | 2 | 998736 | 1% | /run/lock
+none | 998738 | 1 | 998737 | 1% | /run/shm
+none | 998738 | 52 | 998686 | 1% | /mnt/wslg/versions.txt
+none | 998738 | 52 | 998686 | 1% | /mnt/wslg/doc
+none | 1024 | 1 | 1023 | 1% | /run/credentials/systemd-journald.service
+tmpfs | 1048576 | 9 | 1048567 | 1% | /tmp
+none | 1024 | 1 | 1023 | 1% | /run/credentials/systemd-resolved.service
+none | 1024 | 1 | 1023 | 1% | /run/credentials/getty@tty1.service
+tmpfs | 199747 | 44 | 199703 | 1% | /run/user/1000

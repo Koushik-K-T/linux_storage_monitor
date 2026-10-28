@@ -1,0 +1,275 @@
+LINUX STORAGE MONITOR
+====================
+
+REPORT DETAILS
+--------------
+Generated          : 2026-10-27T05:56:31+00:00
+Warning threshold  : 80%
+Critical threshold : 90%
+Filesystems found  : 18
+Inode entries      : 16
+
+DISK SPACE
+----------
+
+Filesystem : none
+Mount      : /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+Type       : overlay
+Size       : 3.8 GB
+Used       : 0.0 MB
+Available  : 3.8 GB
+Usage      : 0%
+
+Filesystem : none
+Mount      : /mnt/wsl
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 0.0 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : drivers
+Mount      : /usr/lib/wsl/drivers
+Type       : 9p
+Size       : 450.1 GB
+Used       : 388.8 GB
+Available  : 61.3 GB
+Usage      : 87%
+
+Filesystem : /dev/sdd
+Mount      : /
+Type       : ext4
+Size       : 1006.9 GB
+Used       : 1.9 GB
+Available  : 953.7 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 0.1 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /usr/lib/wsl/lib
+Type       : overlay
+Size       : 3.8 GB
+Used       : 0.0 MB
+Available  : 3.8 GB
+Usage      : 0%
+
+Filesystem : rootfs
+Mount      : /init
+Type       : rootfs
+Size       : 3.8 GB
+Used       : 2.7 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 0.5 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/lock
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 0.0 MB
+Available  : 3.8 GB
+Usage      : 0%
+
+Filesystem : none
+Mount      : /run/shm
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 0.0 MB
+Available  : 3.8 GB
+Usage      : 0%
+
+Filesystem : none
+Mount      : /mnt/wslg/versions.txt
+Type       : overlay
+Size       : 3.8 GB
+Used       : 0.1 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/doc
+Type       : overlay
+Size       : 3.8 GB
+Used       : 0.1 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : C:\
+Mount      : /mnt/c
+Type       : 9p
+Size       : 450.1 GB
+Used       : 388.8 GB
+Available  : 61.3 GB
+Usage      : 87%
+
+Filesystem : tmpfs
+Mount      : /tmp
+Type       : tmpfs
+Size       : 3.8 GB
+Used       : 2.8 MB
+Available  : 3.8 GB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/getty@tty1.service
+Type       : tmpfs
+Size       : 1.0 MB
+Used       : 0.0 MB
+Available  : 1.0 MB
+Usage      : 0%
+
+Filesystem : tmpfs
+Mount      : /run/user/1000
+Type       : tmpfs
+Size       : 780.3 MB
+Used       : 0.0 MB
+Available  : 780.2 MB
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-journald.service
+Type       : tmpfs
+Size       : 1.0 MB
+Used       : 0.0 MB
+Available  : 1.0 MB
+Usage      : 0%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-resolved.service
+Type       : tmpfs
+Size       : 1.0 MB
+Used       : 0.0 MB
+Available  : 1.0 MB
+Usage      : 0%
+
+INODE USAGE
+-----------
+
+Filesystem : none
+Mount      : /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 5)
+Free       : 243.8 MB (raw count: 998732)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wsl
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 2)
+Free       : 243.8 MB (raw count: 998735)
+Usage      : 1%
+
+Filesystem : /dev/sdd
+Mount      : /
+Total      : 16.0 GB (raw count: 67108864)
+Used       : 14.1 MB (raw count: 57679)
+Free       : 16.0 GB (raw count: 67051185)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 23)
+Free       : 243.8 MB (raw count: 998714)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /usr/lib/wsl/lib
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 7)
+Free       : 243.8 MB (raw count: 998730)
+Usage      : 1%
+
+Filesystem : rootfs
+Mount      : /init
+Total      : 243.5 MB (raw count: 997298)
+Used       : 0.0 MB (raw count: 12)
+Free       : 243.5 MB (raw count: 997286)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.1 MB (raw count: 571)
+Free       : 243.7 MB (raw count: 998166)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/lock
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 2)
+Free       : 243.8 MB (raw count: 998735)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/shm
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 1)
+Free       : 243.8 MB (raw count: 998736)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/versions.txt
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 52)
+Free       : 243.8 MB (raw count: 998685)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /mnt/wslg/doc
+Total      : 243.8 MB (raw count: 998737)
+Used       : 0.0 MB (raw count: 52)
+Free       : 243.8 MB (raw count: 998685)
+Usage      : 1%
+
+Filesystem : tmpfs
+Mount      : /tmp
+Total      : 256.0 MB (raw count: 1048576)
+Used       : 0.0 MB (raw count: 13)
+Free       : 256.0 MB (raw count: 1048563)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/getty@tty1.service
+Total      : 0.2 MB (raw count: 1024)
+Used       : 0.0 MB (raw count: 1)
+Free       : 0.2 MB (raw count: 1023)
+Usage      : 1%
+
+Filesystem : tmpfs
+Mount      : /run/user/1000
+Total      : 48.8 MB (raw count: 199747)
+Used       : 0.0 MB (raw count: 49)
+Free       : 48.8 MB (raw count: 199698)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-journald.service
+Total      : 0.2 MB (raw count: 1024)
+Used       : 0.0 MB (raw count: 1)
+Free       : 0.2 MB (raw count: 1023)
+Usage      : 1%
+
+Filesystem : none
+Mount      : /run/credentials/systemd-resolved.service
+Total      : 0.2 MB (raw count: 1024)
+Used       : 0.0 MB (raw count: 1)
+Free       : 0.2 MB (raw count: 1023)
+Usage      : 1%
+
+END OF REPORT
+=============
